@@ -2,4 +2,7 @@
 
 namespace App\Model;
 
-Class User{}
+Class User
+{
+    public $table = 'users';
+}
