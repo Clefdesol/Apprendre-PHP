@@ -6,3 +6,5 @@ Class User
 {
     public $table = 'users';
 }
+
+// Un comme taire pour tester
