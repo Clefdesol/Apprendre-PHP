@@ -11,6 +11,8 @@ $lastWeek = Carbon::now()->subWeek();
 
 echo $tomorrow, PHP_EOL;
 echo $lastWeek, PHP_EOL;
-echo Carbon::parse('2019-07-23 14:51')->locale('fr_FR')->isoFormat('LLLL');
+echo Carbon::parse('2019-07-23 14:51')->locale('fr_FR')->isoFormat('LLLL') .PHP_EOL;
 
 $user = new User();
+
+echo "Version d'essai 1";
